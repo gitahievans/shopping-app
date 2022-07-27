@@ -16,3 +16,30 @@ height: 60px;
   align-items: center;
 width: 200px;
 }
+
+img{
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.card-btn, p{
+margin-left: 20px;
+}
+
+.card{
+  width: 120px;
+  background-color: cadetblue;
+  border: 1px solid black;
+ padding: 1px;
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: minmax(105px, auto) ;
+grid-gap: 10px ;
+margin-left: 30px;
+margin-top: 10px;
+}
