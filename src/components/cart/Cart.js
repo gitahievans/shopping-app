@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
+import { ClothesContext } from "../context/Context";
 
-function Cart({ cartedItems }) {
-  return (
-    <div>
-      <h1>Cart {cartedItems.length}</h1>
-      {cartedItems}
-    </div>
-  );
+function Cart() {
+  const clothes = useContext(ClothesContext);
+  console.log(clothes);
+
+  return <div></div>;
 }
 
 export default Cart;

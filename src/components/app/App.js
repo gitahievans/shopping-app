@@ -1,11 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { ClothesContext } from "../context/Context";
+import Navbar from "../navbar/Navbar";
+import Home from "../home/Home";
 import Cart from "../cart/Cart";
 import ItemForm from "../itemForm/ItemForm";
-import Home from "../home/Home";
-import Navbar from "../navbar/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState } from "react";
 
 function App() {
-  return (<App />), (<Cart />);
+  const [clothes, setClothes] = useState([]);
+  return (
+    <>
+      <Navbar />
+      <Home />
+      <Cart />
+      <ItemForm />
+    </>
+  );
 }
+
 export default App;
