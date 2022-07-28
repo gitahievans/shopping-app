@@ -5,8 +5,12 @@ import { ClothesContext } from "../context/Context";
 
 function Home() {
   const items = useContext(ClothesContext);
-  console.log(items);
-  return <div></div>;
+
+  return (
+    <div className="container">
+      <Item />
+    </div>
+  );
 }
 
 export default Home;

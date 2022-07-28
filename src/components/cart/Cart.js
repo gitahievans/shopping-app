@@ -3,7 +3,6 @@ import { ClothesContext } from "../context/Context";
 
 function Cart() {
   const clothes = useContext(ClothesContext);
-  console.log(clothes);
 
   return <div></div>;
 }
