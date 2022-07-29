@@ -31,12 +31,6 @@ function ItemForm() {
       .then((r) => r.json())
       .then((newItem) => {
         setItems([...items, newItem]);
-        // setName(newItem.name);
-        // setPrice(newItem.price);
-        // setColor(newItem.color);
-        // setSize(newItem.size);
-        // setImageUrl(newItem.imageUrl);
-        // setGender(newItem.gender);
       });
   };
 

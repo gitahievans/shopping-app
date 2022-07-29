@@ -1,42 +1,6 @@
 {
   "clothes": [
     {
-      "id": 1,
-      "name": "Trousers",
-      "price": "Ksh.2000",
-      "size": "Medium",
-      "gender": "Female",
-      "color": "blue",
-      "image": "https://www.stoneycreekhunting.co.nz/image/cache/catalog/product_images/lifestyle/mens/midlayer/trousers/Mens-Urban-Trousers-Black-LMM-0114-LTB-875x1000.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Skirt",
-      "price": "3000",
-      "size": "Small",
-      "gender": "Female",
-      "color": "blue",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/COLLECTIE_TROPENMUSEUM_Rok_met_panoramische_beschildering_van_Indonesisch_landschap_TMnr_6217-7.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Scarf",
-      "price": "500",
-      "size": "Medium",
-      "gender": "All",
-      "color": "blue",
-      "image": "http://cdn.shopify.com/s/files/1/0011/4651/9637/products/TS2--scarf_1_grande.png?v=1634826211"
-    },
-    {
-      "id": 4,
-      "name": "Hoodie",
-      "price": "Ksh.2000",
-      "size": "Medium",
-      "gender": "All",
-      "color": "blue",
-      "image": "https://5.imimg.com/data5/DP/MI/MY-4779875/kids-plain-hood-500x500.jpg"
-    },
-    {
       "id": 5,
       "name": "Dinner-dress",
       "price": "Ksh.10000",
@@ -73,13 +37,13 @@
       "image": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/03/150866/1.jpg?5382"
     },
     {
-      "name": "Hood",
-      "price": "200",
-      "color": "violet",
-      "size": "small",
-      "imageUrl": "http",
-      "gender": "All",
-      "id": 9
+      "name": "Leather skirt",
+      "price": "Ksh.4000",
+      "color": "Black",
+      "size": "Mediem",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSZfcyeEeFj4h8UXJVFiA7MBlSgKUojlIdsQ&usqp=CAU",
+      "gender": "Female",
+      "id": 10
     }
   ]
 }

@@ -4,11 +4,18 @@ import Item from "../item/Item";
 import { ClothesContext } from "../context/Context";
 
 function Home() {
-  const items = useContext(ClothesContext);
+  const [clothes, setClothes] = useContext(ClothesContext);
+
+  const handleDeleteItem = (deletedItem) => {
+    const updatedList = clothes.filter((item) => item.id !== deletedItem.id);
+    setClothes(updatedList);
+  };
 
   return (
     <div className="container">
-      <Item />
+      {clothes.map((item) => (
+        <Item key={item.id} cloth={item} onDeleteItem={handleDeleteItem} />
+      ))}
     </div>
   );
 }

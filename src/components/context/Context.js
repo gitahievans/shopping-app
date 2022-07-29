@@ -5,6 +5,7 @@ const ClothesContext = React.createContext();
 
 function ClothesProvider({ children }) {
   const [clothes, setClothes] = useState([]);
+  const value = [clothes, setClothes];
 
   useEffect(() => {
     fetch("http://localhost:3000/clothes")
@@ -13,9 +14,7 @@ function ClothesProvider({ children }) {
   }, []);
 
   return (
-    <ClothesContext.Provider value={clothes}>
-      {children}
-    </ClothesContext.Provider>
+    <ClothesContext.Provider value={value}>{children}</ClothesContext.Provider>
   );
 }
 
